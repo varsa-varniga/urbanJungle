@@ -1,0 +1,2582 @@
+body{
+    overflow-x: hidden;
+     background-color: #FFF3E8;
+     margin: 0;
+     box-sizing: border-box;
+     height: 100%;
+}
+.free-shipping {
+    background-image: url(bg-green2.png);
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0.5px;
+    /* padding: 3px 3px 0.5px 3px ; */
+    font-size: 12px;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 3000;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.navbar {
+    background-color:#FFF3E8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 10px;
+    padding-bottom: 0px;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    z-index: 2000;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
+.logo img{
+    width: 150px;
+}
+.menu{
+    list-style: none;
+    justify-content: center; 
+    gap: 40px;
+    display: flex;
+}
+.menu li{
+    margin-left: 40px;
+}
+.menu li a{
+    color:green;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+.menu li a:hover{
+    color: olive;
+    text-decoration: underline;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons a{
+    margin-left: 20px;
+    color: black;
+    font-size: 22px;
+}
+.icons a:hover{
+    color:mediumseagreen;
+}
+body{
+    padding-top: 110px;
+}
+.breadcrumb {
+    padding: 8px 0;
+    position: fixed;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 120px;
+    width: 100%;
+    z-index: 1500;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
+
+
+
+.breadcrumb a {
+    color: green;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.breadcrumb a:hover {
+    color: olive;
+    text-decoration: underline;
+}
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('hero.jpg'); 
+    background-size: cover;
+    background-position: center;
+    z-index: 1200;
+  }
+  .hero-txt {
+    position: absolute;
+    top: 30%; 
+    right: 8%; 
+    color: #000; 
+    text-align: right;
+  }
+  .top {
+    font-size: 1.5rem; 
+    margin: 0; /* Remove the default margin */
+    padding-bottom: 5px; /* Adjust spacing as per your need */
+}
+
+.bottom {
+    font-size: 3.5rem;
+    margin: 0; /* Remove the default margin */
+    padding-top: 10px; /* Adjust spacing as per your need */
+}
+.hero-txt {
+    position: absolute;
+    top: 10%; 
+    right: 8%; 
+    color: #000; 
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.top {
+    font-size: 2.5rem; 
+    margin: 0; 
+
+}
+
+.bottom {
+    font-size: 3.5rem;
+    margin: 0; 
+    
+    display: inline-block;
+}
+
+.tagline {
+    background-color: #006400; 
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 25px; 
+    display: inline-block;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 600px;
+}
+
+  
+  .dot {
+    color: #fff;
+   
+  }
+  .indoor-plant p{
+    margin-left: 40px;
+  }
+  .plant-types {
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+.plant-types h1 {
+    font-size: 36px;
+    color: olivedrab;
+    margin-bottom: 30px;
+}
+
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+   
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* about */
+  #about {
+    padding: 40px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+#aboutsection a{
+    color: #006400;
+}
+.about-container {
+    /* display: flex; */
+    max-width: 1200px;
+    gap: 30px;
+    align-items: center;
+}
+.about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color:#f8f0e6;
+    justify-content: center;
+}
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.about-content p {
+    padding: 10px;
+    margin-left: 400px;
+    font-size: 1rem; 
+    max-width: 1000px; 
+}
+
+
+
+/* Media Queries for responsive text size */
+@media (max-width: 1200px) {
+    .about-content p {
+        font-size: 0.5em; 
+    }
+}
+
+@media (max-width: 900px) {
+    .about-content p {
+        font-size: 0.5rem; 
+    }
+}
+
+.footer-banner {
+    color: #f8f0e6;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(204, 157,74);
+   
+}
+
+.footer-item {
+    padding: 20px;
+    font-weight:bold;
+    text-align: center; /* Center text within each footer item */
+}
+
+#plants,#Pot-Planters {
+    display: none;
+}
+
+
+
+
+/* Plant Section */
+.plant-section {
+    padding: 60px 0;
+    background-color: #FFF3E8;
+    text-align: center;
+    overflow: hidden; 
+}
+
+#plant-types {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1a852a;
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 70px; 
+    padding: 0 20px; 
+    margin: 0 auto; /* Center the wrapper */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    scroll-snap-type: x mandatory; /* Enable snap scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    width: 100vw; /* Set a width for the wrapper */
+    height: 55vh;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in webkit browsers */
+}
+
+.plant-item {
+    background-color:#FFF3E8; /* Background color for plant items */
+    border-radius: 50%; /* Rounded corners */
+    width: 300px; /* Consistent width for all items */
+    height: 300px;
+    flex: 0 0 auto; /* Prevent shrinking or stretching */
+    padding: 30px; /* Padding inside each item */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    text-align: center; /* Center text within items */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition effects */
+}
+
+.plant-item:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8); /* Deep shadow on hover */
+   
+}
+
+.plant-item .image-plant img {
+    width: 290px; /* Full width for images */
+    height: 290px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure images cover the area */
+    border-radius: 50%; /* Rounded corners for images */
+    margin-bottom: 20px; /* Space below images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for images */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+    justify-content: center;
+
+}
+
+.plant-item:hover .image-plant img {
+    transform: scale(1.05); /* Zoom effect on hover */
+    border: 5px solid green;
+}
+
+.plant-item h3 {
+    font-size: 1.8rem; /* Font size for item titles */
+    color: #272121; /* White color for text */
+    margin-bottom: 10px; /* Space below titles */
+    text-transform: capitalize; /* Capitalize titles */
+}
+#plantbackbutton{
+left: 20px;
+    top: 60px;
+}
+
+
+/* pot section carousal effecr */
+#pot-section {
+    padding: 60px 0;
+    background-color: #FFF3E8;
+    text-align: center;
+    position: relative;
+}
+
+#pot-types {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #d3a674;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#potbackbutton {
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    background: green;
+    border: none;
+    color: #f6f5f3;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#pot-section .wrapper {
+    display: flex;
+    gap: 70px;
+    padding: 0 20px;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    width: 95vw;
+}
+
+#pot-section .wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.pot-item {
+    background-color:#806e4f;
+    border-radius: 15px;
+    width: 300px;
+    flex: 0 0 auto;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.pot-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.pot-item .potimage img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.pot-item:hover .potimage img {
+    transform: scale(1.05);
+}
+
+.pot-item h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+
+/* Additional container styling */
+.best-picks-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pick-item {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-frame {
+    width: 250px;
+    height: 250px;
+    background-color: #f8f0e6;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#picks {
+    text-align: center;
+}
+
+.pick-title {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* plants */
+#medicine {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 80px; 
+    background-color:#FFF3E8; /* Light beige background */
+    max-width: 1800px; 
+    max-height: 1800px;
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center; 
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#medicine-back-button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#medicine button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#medicine .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    width: 350px;
+    height: 550px;
+   
+}
+
+/* Hover Effects on Plant Items */
+#medicine .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#medicine .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#medicine .plant-item img {
+    width: 350px; /* Make image take the full width of its container */
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#medicine .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#medicine .plant-item h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#medicine .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#medicine .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#medicine .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #flower {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+#flower {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+
+/* bonsai */
+#bonsai-plants{
+  height: 2300px;
+  
+  background: #006400;
+}
+#bonsai-design{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: px; 
+    /* background-color:#090705; Light beige background */
+   
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center; 
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#bonsai-designbutton {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#bonsai-design button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#bonsai-design .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    /* width: 350px; */
+   
+}
+
+/* Hover Effects on Plant Items */
+#bonsai-design .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#bonsai-design .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#bonsai-design .plant-item img {
+    width: 280px; /* Make image take the full width of its container */
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#bonsai-design .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#bonsai-design .plant-item h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#bonsai-design .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#bonsai-design .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#bonsai-design .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #bonsai-design {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+#bonsai-design {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+
+
+/* air purifying */
+#air-purifying-plants {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 80px; 
+    background-color:#FFF3E8; /* Light beige background */
+    max-width: 1800px; 
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center; 
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#air-purifying-plants button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#air-purifying-plants button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#air-purifying-plants .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    width: 350px;
+   
+}
+
+/* Hover Effects on Plant Items */
+#air-purifying-plants .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#air-purifying-plants .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#air-purifying-plants .plant-item img {
+    width: 350px; /* Make image take the full width of its container */
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#air-purifying-plants .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#air-purifying-plants .plant-item h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#air-purifying-plants .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#air-purifying-plants .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#air-purifying-plants .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #air-purifying-plants {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+#air-purifying-plants {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+/* flowring plants */
+#flower {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 80px; 
+    background-color:#FFF3E8; /* Light beige background */
+    max-width: 1800px; 
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center; 
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#flower button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#flower button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#flower .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    width: 350px;
+   
+}
+
+/* Hover Effects on Plant Items */
+#flower .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#flower .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#flower .plant-item img {
+    width: 350px; /* Make image take the full width of its container */
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#flower .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#flower .plant-item h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#flower .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#flower .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#flower .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #flower {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #flower {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+/* succulents */
+#succulent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 80px; 
+    background-color:#FFF3E8; /* Light beige background */
+    max-width: 1800px; 
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center; 
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#succulent button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#succulent button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#succulent .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    width: 350px;
+   
+}
+
+/* Hover Effects on Plant Items */
+#succulent .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#succulent .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#succulent .plant-item img {
+    width: 350px; /* Make image take the full width of its container */
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#succulent .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#succulent .plant-item h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#succulent .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#succulent.plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#succulent .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #succulent {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #succulent {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+#fancy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 80px; 
+    background-color:#FFF3E8; /* Light beige background */
+    max-width: 1800px; 
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center; 
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#fancy  button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fancy  button:hover {
+    background-color: #218838;
+}
+
+#fancy  .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    width: 350px;
+   
+}
+
+/* Hover Effects on Plant Items */
+#fancy  .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#fancy  .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#fancy .plant-item img {
+    width: 350px; /* Make image take the full width of its container */
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#fancy  .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#fancy  .plant-item h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#fancy  .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#fancy  .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#fancy  .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #fancy  {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #fancy {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+
+
+#shop{
+    text-align: center;
+}
+#living{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+/* why us */
+.why-ugaoo {
+    background-color: #FFF3E8; /* Light peach background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.why-ugaoo h2 {
+    font-size: 28px;
+    color: #205C3B; /* Dark green color */
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.why-ugaoo h2::before,
+.why-ugaoo h2::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #C99D56; /* Gold color */
+    position: absolute;
+    top: 50%;
+}
+
+.why-ugaoo h2::before {
+    left: -50px;
+}
+
+.why-ugaoo h2::after {
+    right: -50px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature-item {
+    width: 200px;
+    text-align: center;
+    color: #333; /* Text color */
+}
+.why-ugaoo .feature-item i {
+    font-size: 40px; 
+    color: #00000061; 
+}
+.feature-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+
+/* experiance */
+.magic-plants {
+    background-color: #C99D56; /* Set your background color */
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.text-content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.leaf {
+    position: absolute;
+    width: 250px;
+}
+
+.leaf.left {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.leaf.right {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotateY(180deg); /* Flip the leaf image */
+}
+
+
+/* footer */
+footer {
+    background-color: #cf6a23; /* Golden brown background */
+    color: #F5DEB3; /* Lighter brown for text */
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+footer div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    color: #FFD700; /* Golden color for headings */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #F5DEB3;
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    color: #FFD700; /* Golden hover effect */
+}
+
+footer .social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #F5DEB3;
+}
+
+footer .social-icons a:hover {
+    color: #FFD700;
+}
+
+
+
+
+
+
+
+footer .app-icons img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: #F5DEB3;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #3a2202;
+    color: white;
+}
+
+
+
+/* General styles */
+
+
+#reviews {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    background-color:#FFF3E8;
+    margin-bottom: 0px;
+}
+
+.review-header {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #2E563B;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.review-container {
+    max-width: 600px;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+    color: #2E563B;
+    margin: 0 20px;
+    user-select: none;
+}
+
+.review-content {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.rating {
+    color: #FFA500;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.review-author {
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: italic;
+    color: #888;
+}
+
+/* Transition effects for photo */
+.photo-container .photo {
+    opacity: 0;
+}
+
+.photo-container .photo.active {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+
+/* plant community */
+#community {
+
+    width: 100%;
+    height: 60vh;
+    background-color: #f8f0e6;
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    padding: 0 50px; /* Reduced padding to give more room for the image */
+    box-sizing: border-box;
+    position: relative; /* Allows the image to extend beyond the container */
+    /* margin-bottom: 10px; */
+}
+
+#text {
+    text-align: left;
+    max-width: 50%;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+#text h1 {
+    font-weight: bold;
+    color: rgb(74, 2, 17);
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+#text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#button {
+    background-color: rgb(74, 2, 17);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover {
+    background-color: #922a30;
+}
+
+#gardener {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 70%; /* Adjusts the image width to take up the right half */
+    height: 100%; /* Makes the image fill the height of the section */
+}
+
+#gardener img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    border-radius: 0 0 0 50px; /* Optional: rounds the left side */
+}
+
+
+
+/* terracotta */
+
+/* Terracotta Section */
+#terracotta-design {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid container */
+    background-color: #f8f0e6; /* Light beige background */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#terracotta-design button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#terracotta-design button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#terracotta-design .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0; /* Ensure no negative margins */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Hover Effects on Plant Items */
+#terracotta-design .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#terracotta-design .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#terracotta-design .plant-item img {
+    width: 100%; /* Make image take the full width of its container */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#terracotta-design .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#terracotta-design .plant-item h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#terracotta-design .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#terracotta-design .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#terracotta-design .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #terracotta-design {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #terracotta-design {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+
+
+   
+
+/* glass pots*/
+#glass {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Fixed 4 columns */
+    gap: 20px; /* Increased gap for better spacing */
+    padding: 20px;
+    background-color: #f8f0e6; /* Light beige background */
+    width: 100%;
+    box-sizing: border-box;
+}
+.hidden{
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Plant Card Styling */
+#glass .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#glass .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#glass .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#glass .plant-item img {
+    width: 100%; /* Make image take the full width of its container */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#glass .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Plant Name */
+#glass .plant-item h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Star Rating */
+#glass .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#glass .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#glass .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #glass{
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #glass {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+
+/* hanging pots*/
+
+#wooden {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid container */
+    background-color: #f8f0e6; /* Light beige background */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#wooden button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#wooden button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#wooden .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0; /* Ensure no negative margins */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Hover Effects on Plant Items */
+#wooden .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#wooden .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#wooden .plant-item img {
+    width: 100%; /* Make image take the full width of its container */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#wooden .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#wooden .plant-item h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#wooden .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#wooden .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#wooden .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #wooden {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #wooden {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+/* ceramic pots*/
+
+/* Ceramic Pots Grid */
+#ceramic {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid container */
+    background-color: #f8f0e6; /* Light beige background */
+    width: calc(100% - 40px); /* Adjust width to account for padding */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    margin: 0 auto; /* Center the grid container */
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#ceramic button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#ceramic button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#ceramic .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0; /* Ensure no negative margins */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Hover Effects on Plant Items */
+#ceramic .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#ceramic .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#ceramic .plant-item img {
+    width: 100%; /* Make image take the full width of its container */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#ceramic .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#ceramic .plant-item h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#ceramic .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#ceramic .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#ceramic .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #ceramic {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #ceramic {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+
+
+/* hanger Pots Grid */
+#hanger {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid container */
+    background-color: #f8f0e6; /* Light beige background */
+    width: calc(100% - 40px); /* Adjust width to account for padding */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    margin: 0 auto; /* Center the grid container */
+}
+
+/* Hidden Class for Conditional Display */
+.hidden {
+    display: none !important; /* Add !important to enforce hiding */
+}
+
+/* Button Styling */
+#hanger button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#hanger button:hover {
+    background-color: #218838;
+}
+
+/* Plant Card Styling */
+#hanger .plant-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0; /* Ensure no negative margins */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Hover Effects on Plant Items */
+#hanger .plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sale Tag */
+#hanger .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f4c542;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Image Styling */
+#hanger .plant-item img {
+    width: 100%; /* Make image take the full width of its container */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain their aspect ratio without distortion */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects on Images */
+#hanger .plant-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plant Name Styling */
+#hanger .plant-item h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+/* Pricing */
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align */
+    gap: 8px; /* Space between prices */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.new-price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Star Rating */
+#hanger .plant-item .rating {
+    color: #ffa41b;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* View Product Button */
+#hanger .plant-item .view-product {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#hanger .plant-item .view-product:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+    #hanger {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #hanger {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        gap: 15px;
+    }
+}
+
+/* Plant Section */
+.care-section{
+    padding: 80px 0;
+    background-color: #FFF3E8;
+    text-align: center;
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+#plantcare-types {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #17470b;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#plantcarebackbutton {
+    position: absolute;
+    left: 20px;
+    
+    background: green;
+    border: none;
+    color: #f6f5f3;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.wrapper {
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 70px; /* Space between items */
+    padding: 0 20px; /* Padding around the wrapper */
+    margin: 0 auto; /* Center the wrapper */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    scroll-snap-type: x mandatory; /* Enable snap scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    width: 95vw; /* Set a width for the wrapper */
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in webkit browsers */
+}
+
+.care-item {
+    background-color:#806e4f; /* Background color for plant items */
+    border-radius: 15px; /* Rounded corners */
+    width: 300px; /* Consistent width for all items */
+    flex: 0 0 auto; /* Prevent shrinking or stretching */
+    padding: 30px; /* Padding inside each item */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    text-align: center; /* Center text within items */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition effects */
+}
+
+.care-item:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8); /* Deep shadow on hover */
+}
+
+.care-item .image img {
+    width: 100%; /* Full width for images */
+    height: 350px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure images cover the area */
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 20px; /* Space below images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for images */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.care-item:hover .image img {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.care-item h3 {
+    font-size: 1.8rem; /* Font size for item titles */
+    color: #fff; /* White color for text */
+    margin-bottom: 10px; /* Space below titles */
+    text-transform: capitalize; /* Capitalize titles */
+}

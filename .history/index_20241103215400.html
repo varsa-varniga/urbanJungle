@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN JUNGLE</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+</head>
+<body>
+   
+    <div class="free-shipping">
+     <p>Festive sale|shop now</p>
+    <p>Free shipping above $399|All India Delivery</p> 
+    <p> organic fertilizer to boost plant health</p>
+    </div>
+    <nav class="navbar"> 
+        <div class="logo">
+            <img src="logo-fotor-bg-remover-20241001233748.png" alt="urban jungle planters">
+        </div>
+        <ul class="menu">
+            <li class="dropdown">
+                <a href="#plants" class="dropbtn" onclick="updateBreadcrumb('Plant')">Plant</a>
+                <div class="dropdown-content">
+                    <a href="#bonsai-plants">Bonsai</a>
+                    <a href="#succulents">Succulents</a>
+                    <a href="#ornamental plants">Ornamental Plants</a>
+                    <a href="#flowering plants">Flowering Plants</a>
+                    <a href="#medicinal plants">Medicinal Plants</a>
+                   
+                    <a href="#air purifying">Air-purifying</a>
+
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#Pots & Planters" class="dropbtn" onclick="updateBreadcrumb('Pots & Planter')">Pots & Planter</a>
+                <div class="dropdown-content">
+                    <a href="#Terracotta Pots">Terracotta Pots</a>
+                    <a href="#Ceramic pots">Ceramic pots</a>
+                    <a href="#Hanging Planters">Hanging Planters</a>
+                    <a href="#Wooden planters">Wooden planters</a>
+                    <a href="#Fibreglass Pots">Fibreglass Pots</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#Plant Care" class="dropbtn" onclick="updateBreadcrumb('Plant Care')">Plant Care</a>
+                <div class="dropdown-content">
+                    <a href="#Potting Mix & Fertilizers">Potting Mix & Fertilizers</a>
+                    <a href="#Garden Tools">Garden Tools</a>
+                    <a href="#Watering Tools">Watering Tools</a>
+                    <a href="#Garden Decor & Accessories">Garden Decor & Accessories</a>
+                    <a href="#Pest Control">Pest Control</a>
+                </div>
+            </li>
+            <li><a href="#" onclick="updateBreadcrumb('Review')">Review</a></li>
+        </ul>
+    <div class="icons">
+        <a href="#"><i class="fas fa-heart"></i></a>
+        <a href="#"><i class="fas fa-user"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+    </nav>
+    <div class="breadcrumb" id="breadcrumb">
+        <a href="#" onclick="updateBreadcrumb('Home')">Home</a> / Plant
+    </div>
+    <div class="hero">
+   <div class="hero-txt">
+    <h4 class="top">From our</h4>
+    <h1 class="bottom">Lush Jungle to Your Home</h1>
+    <div class="tagline">
+        Discover the Perfect Plant Today  <span class="dot"><i class="fas fa-circle"></i></span>   Curated Plants for Modern Living
+    </div>
+   </div>
+   </div>
+   <section class="about-banner" id="aboutsection">
+    <div class="about-content">
+        <h2>About Urban Jungle</h2>
+        <p>
+            As India’s largest and most trusted online plant nursery and gardening store, Ugaoo is here to bring you only the best for all your
+            gardening and plant needs. From exotic <a href="#">indoor plants</a> for your homes to <a href="#">flowering plants</a> and
+            <a href="#">succulents</a> for your ornamental gardens, we bring you all the plants you may want! We also specialize in the highest
+            quality <a href="#">seeds</a>, organic <a href="#">fertilizers</a>, premium <a href="#">pots and planters</a>, and
+               <a href="#">garden tools</a> for effective plant care. So, turn a new leaf and start your gardening journey with Urban Jungle!
+        </p>
+    </div>
+    <div class="footer-banner">
+       
+        <div class="footer-item">🌱 Plants Grow People</div>
+        <div class="footer-item">🌱 Plants Grow People</div>
+        <div class="footer-item">🌱 Plants Grow People</div>
+        <div class="footer-item">🌱 Plants Grow People</div>
+        <div class="footer-item">🌱 Plants Grow People</div>
+    </div>
+</section>
+
+
+
+<!-- best picks -->
+<section id="best picks">
+    <h1 id="picks">Your Best Picks</h1>
+    <div class="best-picks-container">
+      <div class="pick-item" id="bestpick plant">
+        <div class="image-frame">
+          <img src="plant 1.webp" alt="Plant">
+        </div>
+        <div class="pick-title">Plants</div>
+      </div>
+    
+      <div class="pick-item">
+        <div class="image-frame">
+          <img src="pot 1.jpg" alt="Pots & Planters">
+        </div>
+        <div class="pick-title">Pots & Planters</div>
+      </div>
+    
+      <div class="pick-item">
+        <div class="image-frame">
+          <img src="fertilizers 1.jpg" alt="Fertilizers">
+        </div>
+        <div class="pick-title">Fertilizers</div>
+      </div> 
+    </div>
+    </section>
+
+
+    <!-- plant types -->
+    <section id="plantSection" class="hidden">
+    
+        <h1 id="plant-types">Plants</h1>
+        <div class="wrapper">
+
+            <div class="plant-item" id="bonsai">
+                <div class="image" >
+                <img src="bonsai plants.jpg" alt="bonsai" draggable="false">
+            </div>
+                <h3>Bonsai</h3>
+            </div>
+           
+            <div class="plant-item" id="succulents">
+                <div class="image">
+                <img src="succulents.jpg" alt="succulents" draggable="false">
+                </div>
+                <h3>succulents</h3>
+            </div>
+
+            <div class="plant-item" id="air-purifying">
+                <div class="image">
+                <img src="air purifying plants.jpg" alt="air-purifying" draggable="false">
+            </div>
+                <h3>Air-purifying</h3>
+            </div>
+               
+            <div class="plant-item" id="flowering plants">
+                <div class="image">
+                <img src="flowering plants.jpg" alt="flowering plants" draggable="false">
+            </div>
+                <h3>Flowering plants</h3>
+            </div>
+               
+            <div class="plant-item" id="ornamental plants">
+                <div class="image" >
+                <img src="ornamental plants.jpg" alt="ornamental plants" draggable="false">
+            </div>
+                <h3>Ornamental plants</h3>
+            </div>
+               
+           <div class="plant-item" id="medicinal plants">
+            <div class="image">
+                <img src="medicinal plants.jpg" alt="medicinal plants" draggable="false">
+            </div>
+                <h3>Medicinal plants</h3>
+           </div>
+
+        
+       
+     </div>
+</section>
+
+<!-- air purifying -->
+<section id="air-purifying-plants" class="hidden">
+    <button id="back-button">
+        <i class="fa-solid fa-arrow-left"></i> 
+    </button>
+
+    <div class="plant-item">
+       
+        <img src="airpurifying/ap1.jpg" alt="Snake plant">
+        <div class="sale-tag">SALE</div>
+        <h3>Snake Plant</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="airpurifying/ap2 spider.jpg" alt="Plant 2">
+        <div class="sale-tag">SALE</div>
+        <h3>Spider</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="airpurifying/ap3 peace lily.jpg" alt="Plant 3"> 
+        <div class="sale-tag">SALE</div>
+        <h3>Peace Lily</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+       
+        <img src="airpurifying/ap4 bamboo.jpg" alt="Plant 4">
+        <div class="sale-tag">SALE</div>
+        <h3>Bamboo</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="airpurifying/ap5 areca palm.jpg" alt="Plant 5">
+        <div class="sale-tag">SALE</div>
+        <h3>Areca Palm</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+
+    <div class="plant-item">
+        <img src="airpurifying/ap6 draceana.jpg" alt="Plant 6">
+        <div class="sale-tag">SALE</div>
+        <h3>Draceana</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="airpurifying/ap7 english ivy.jpg" alt="Plant 7">
+        <div class="sale-tag">SALE</div>
+        <h3>English Ivy</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item"><img src="airpurifying/ap8 rubber plant.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Rubber Plant</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+</section>
+
+<!--BONSAI--> -->
+<section id="bonsaiSection" class="hidden">
+    <button id="bonsaiBackButton">Back</button>
+
+    <div class="plant-item">
+       
+        <img src="bonsai/b1 juniper.jpg" alt="Juniper">
+        <div class="sale-tag">SALE</div>
+        <h3>Juniper</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="bonsai/b2 pine.jpg" alt="Plant 2">
+        <div class="sale-tag">SALE</div>
+        <h3>pine</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="bonsai/b3 Japanese Maple (Acer Palmatum).jpg" alt="Plant 3"> 
+        <div class="sale-tag">SALE</div>
+        <h3>Japanese Maple (Acer Palmatum)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+       
+        <img src="bonsai/b4 4. Japanese Flowering Cherry (Prunus Serrulata).jpg" alt="Plant 4">
+        <div class="sale-tag">SALE</div>
+        <h3>Japanese Flowering Cherry (Prunus Serrulata)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="bonsai/b5 purple.jpg" alt="Plant 5">
+        <div class="sale-tag">SALE</div>
+        <h3>Jacaranda mimosifolia</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+
+    <div class="plant-item">
+        <img src="bonsai/b6 blue.jpg" alt="Plant 6">
+        <div class="sale-tag">SALE</div>
+        <h3>Blue Jacaranda </h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="bonsai/Tea Tree (Camellia sinensis).jpg" alt="Plant 7">
+        <div class="sale-tag">SALE</div>
+        <h3>Tea Tree </h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item"><img src="bonsai/Sweet Gum (Liquidambar styraciflua).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Sweet Gum</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="bonsai/Persian Ironwood (Parrotia persica).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Persian Ironwood</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="bonsai/Cape Honeysuckle (Tecoma capensis).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Cape Honeysuckle </h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="bonsai/Ginkgo (Ginkgo biloba).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Ginkgo</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="bonsai/Japanese Flowering Apricot (Prunus mume).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Japanese Flowering Apricot</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="bonsai/Jade (Crassula ovata).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Jade (Crassula ovata)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="bonsai/Norway Spruce (Picea abies).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Norway Spruce (Picea abies)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="bonsai/Serissa (Serissa japonica) white.png" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Serissa (Serissa japonica)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+</section>
+
+<!-- succulents -->
+<section id="succulent" class="hidden">
+    <button id="succulents-back-button">
+        <i class="fa-solid fa-arrow-left"></i> 
+    </button>
+
+    <div class="plant-item">
+       
+        <img src="succulents/s1 Epiphyllum Anguliger or Fishbone cactu.jpg" alt="Juniper">
+        <div class="sale-tag">SALE</div>
+        <h3>Fishbone cactu</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="succulents/s10ant plant.jpg" alt="Plant 2">
+        <div class="sale-tag">SALE</div>
+        <h3>Ant Plant</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="succulents/s11Astroworthia.jpg" alt="Plant 3"> 
+        <div class="sale-tag">SALE</div>
+        <h3>Astroworthia</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+       
+        <img src="succulents/s12 weeping begonia.jpg" alt="Plant 4">
+        <div class="sale-tag">SALE</div>
+        <h3>weeping begonia</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="succulents/s13Fenestraria rhopalophylla ssp. aurantiaca - Baby Toes..jpg" alt="Plant 5">
+        <div class="sale-tag">SALE</div>
+        <h3>Baby Toes(Fenestraria rhopalophylla)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+
+    <div class="plant-item">
+        <img src="succulents/s14 bunny succulent.jpg" alt="Plant 6">
+        <div class="sale-tag">SALE</div>
+        <h3>bunny succulent</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="succulents/s15pink moonstone.jpg" alt="Plant 7">
+        <div class="sale-tag">SALE</div>
+        <h3>Pink Moonstone </h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item"><img src="succulents/s2Scarlet Ball (Parodia haselbergii).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Scarlet Ball (Parodia haselbergii)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="succulents/s3Easter cactus.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Easter cactus</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="succulents/s4Echeveria Succulents.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Echeveria Succulents</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="succulents/s7Echinopsis Chamaecereus.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Echinopsis Chamaecereus</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="succulents/s5.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Escherevia subsessils</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="succulents/s9.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Escherevia topsy turvy</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="succulents/s8.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Gaptroveria bashful</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="succulents/s16.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Escherevia chroma</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+</section>
+ 
+<!-- flowering plants -->
+<section id="flower" class="hidden">
+    <button id="flowers-back-button">
+        <i class="fa-solid fa-arrow-left"></i> 
+    </button>
+
+    <div class="plant-item">
+       
+        <img src="flowering plants/f1 Anthurium.jpg" alt="Juniper">
+        <div class="sale-tag">SALE</div>
+        <h3>Anthurium</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="flowering plants/f10 Bromeliad.jpg" alt="Plant 2">
+        <div class="sale-tag">SALE</div>
+        <h3>Bromeliad</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="flowering plants/f11 purple oxalis triangularis.jpg" alt="Plant 3"> 
+        <div class="sale-tag">SALE</div>
+        <h3>Purple Oxalis Triangularis</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+       
+        <img src="flowering plants/f12 cyclamen.jpg" alt="Plant 4">
+        <div class="sale-tag">SALE</div>
+        <h3>cyclamen</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="flowering plants/f13 african violet.jpg" alt="Plant 5">
+        <div class="sale-tag">SALE</div>
+        <h3>African Violet</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+
+    <div class="plant-item">
+        <img src="flowering plants/f14 Amaryllis.jpg" alt="Plant 6">
+        <div class="sale-tag">SALE</div>
+        <h3>Amaryllis</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="flowering plants/f15 clivia.jpg" alt="Plant 7">
+        <div class="sale-tag">SALE</div>
+        <h3>Clivia </h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item"><img src="flowering plants/f2 dalia.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Dalia</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="flowering plants/f3 Ixora Plant.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Ixora Plant</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="flowering plants/f4 kalanchoe.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Kalanchoe </h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="flowering plants/f5 gerebra daisy.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Gerebra Daisy</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="flowering plants/f6 crown of thorns.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Crown Of Thorns</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="flowering plants/f7 Hoya heuschkeliana.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>JHoya heuschkeliana</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="flowering plants/f8 desert rose.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Desert rose</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="flowering plants/f9 moth orchid.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Moth Orchid</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+</section>
+
+<!-- ornamental plants -->
+<section id="fancy" class="hidden">
+    <button id="fancy-back-button">
+        <i class="fa-solid fa-arrow-left"></i> 
+    </button>
+
+    <div class="plant-item">
+       
+        <img src="plants-ornamental/1 Dracaena Marginata (Dragon Tree).jpg" alt="Juniper">
+        <div class="sale-tag">SALE</div>
+        <h3>Dracaena Marginata (Dragon Tree)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="plants-ornamental/10Pothos (Epipremnum Aureum).jpg" alt="Plant 2">
+        <div class="sale-tag">SALE</div>
+        <h3>Pothos (Epipremnum Aureum)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="plants-ornamental/11 Caladium.jpg" alt="Plant 3"> 
+        <div class="sale-tag">SALE</div>
+        <h3>Caladium</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+       
+        <img src="plants-ornamental/12 . Alocasia Amazonica (African Mask Plant).jpg" alt="Plant 4">
+        <div class="sale-tag">SALE</div>
+        <h3>African Mask Plant</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="plants-ornamental/13 Philodendron Pink Princess.jpg" alt="Plant 5">
+        <div class="sale-tag">SALE</div>
+        <h3>Philodendron Pink Princess</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+
+    <div class="plant-item">
+        <img src="plants-ornamental/14 String of Pearls (Senecio Rowleyanus).jpg" alt="Plant 6">
+        <div class="sale-tag">SALE</div>
+        <h3>String of Pearls</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="plants-ornamental/15 . Purple Heart (Tradescantia Pallida).jpg" alt="Plant 7">
+        <div class="sale-tag">SALE</div>
+        <h3>Purple Heart  </h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item"><img src="plants-ornamental/16 Chinese Money Plant (Pilea Peperomioides).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Chinese Money Plant</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="plants-ornamental/2 Monstera Deliciosa (Swiss Cheese Plant).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Swiss Cheese Plant</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="plants-ornamental/3 Calathea Orbifolia.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Calathea Orbifolia</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="plants-ornamental/4  Bird of Paradise (Strelitzia Reginae).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>  Bird of Paradise</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="plants-ornamental/5  Aglaonema (Chinese Evergreen).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Aglaonema</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="plants-ornamental/6  Croton (Codiaeum Variegatum).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Croton</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="plants-ornamental/7Anthurium.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Anthurium</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="plants-ornamental/8 Bromeliads.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Bromeliads</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+</section>
+
+
+<!-- medicinal plants -->
+<section id="medicine" class="hidden">
+    <button id="medicine-back-button">
+        <i class="fa-solid fa-arrow-left"></i> 
+    </button>
+
+    <div class="plant-item">
+        <img src="medicinal plants/m1 Tulsi.jpg" alt="Plant 2">
+        <div class="sale-tag">SALE</div>
+        <h3>Tulsi</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="medicinal plants/m10 ajwain.jpg" alt="Plant 3"> 
+        <div class="sale-tag">SALE</div>
+        <h3>Ajawain</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+       
+        <img src="medicinal plants/m11 Mint (Pudina).jpg" alt="Plant 4">
+        <div class="sale-tag">SALE</div>
+        <h3>Mint</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="medicinal plants/m12 Fenugreek (Methi).jpg" alt="Plant 5">
+        <div class="sale-tag">SALE</div>
+        <h3>Fenugreek(Methi)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+
+    <div class="plant-item">
+        <img src="medicinal plants/m13 . Henna (Mehendi).jpg" alt="Plant 6">
+        <div class="sale-tag">SALE</div>
+        <h3>Henna</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item">
+        <img src="medicinal plants/m14 Manjistha (Indian Madder).jpg" alt="Plant 7">
+        <div class="sale-tag">SALE</div>
+        <h3>Manjistha (Indian Madder)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+
+    <div class="plant-item"><img src="medicinal plants/m15 neem.jpeg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Neem</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m16 Lemon.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Lemon</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m2 Ashwagandha (Indian Ginseng).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Ashwagandha (Indian Ginseng)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m3  Turmeric (Haldi).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Turmeric (Haldi)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m4  Brahmi.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Brahmi</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m5  Giloy (Guduchi).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Giloy (Guduchi)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m6 Aloe Vera.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Aloe Vera</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m8 Bael (Wood Apple).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Bael (Wood Apple)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m7 Shatavari.jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3>Shatavari</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+    <div class="plant-item"><img src="medicinal plants/m9 Hibiscus (Japa Pushpa).jpg" alt="Plant 8">
+        <div class="sale-tag">SALE</div>
+        <h3> Hibiscus (Japa Pushpa)</h3>
+        <div class="price-container">
+            <span class="old-price">₹1,999</span>
+            <span class="new-price">From ₹499</span>
+        </div>
+        <div class="rating">★★★★★</div>
+        <button class="view-product">ADD TO CART</button>
+    </div>
+</section>
+
+
+<!-- pots and planters -->
+<section id="Pot-Planters" class="pots-section">
+    <h1 id="pot-types">Pots and Planters</h1>
+    <div class="wrapper">
+        <div class="pot-item">
+            <div class="potimage" id="Terracotta">
+            <img src="bonsai plants.jpg" alt="Terracotta" draggable="false">
+        </div>
+            <h3>Terracotta</h3>
+        </div>
+       
+        <div class="pot-item" id="Ceramic">
+            <div class="potimage">
+            <img src="succulents.jpg" alt="Ceramic" draggable="false">
+            </div>
+            <h3>Ceramic</h3>
+        </div>
+
+        <div class="pot-item" id="Hanging Planters">
+            <div class="potimage">
+            <img src="air purifying plants.jpg" alt="Hanging Planters" draggable="false">
+        </div>
+            <h3>Hanging Planters</h3>
+        </div>
+           
+        <div class="pot-item" id="Wooden Planters">
+            <div class="potimage">
+            <img src="flowering plants.jpg" alt="Wooden Planters" draggable="false">
+        </div>
+            <h3>Wooden Planters</h3>
+        </div>
+           
+        <div class="pot-item" id="Fibreglass Planters">
+            <div class="potimage" >
+            <img src="ornamental plants.jpg" alt="Fibreglass Planters" draggable="false">
+        </div>
+            <h3>Fibreglass Planters</h3>
+    </div>
+   
+ </div>
+</section>
+
+
+
+
+
+
+
+<section  id="bottom">
+<!-- shop look -->
+<div id="look"></div>
+<h1 id="shop">Shop The Look</h1>
+    <img src="living 3.webp" alt="living room" id="living">
+</div>
+
+<!-- review -->
+
+
+<section id="reviews">
+    <div class="review-header">From Happy Plant Parents</div>
+
+    <div class="review-container">
+        <div class="photo-container">
+            <span class="arrow left" onclick="changeReview(-1)">&#8592;</span>
+            <img src="customer/customer 4.jpg" alt="Reviewer Photo" class="photo" id="reviewer-photo">
+            <span class="arrow right" onclick="changeReview(1)">&#8594;</span>
+        </div>
+
+        <div class="review-content" id="review-text">
+            <!-- Initial review content will be loaded here by JavaScript -->
+        </div>
+
+        <div class="rating" id="review-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-author" id="review-author">
+            <!-- Initial review author will be loaded here by JavaScript -->
+        </div>
+    </div>
+</section>
+
+
+
+<!-- plant community -->
+ <section id="community">
+    <div id="text">
+    <h1>Join our Plant Parent <br>Rewards Club</h1><br>
+    <p> Every plant purchase is a gift that keeps on giving. Earn coins and <br>redeem them for exclusive discounts.</p>
+    <button id="button">LEARN MORE</button>
+</div>
+<div id="gardener">
+    <img src="gardener.png" alt="gardener">
+</div>
+ </section>
+
+<section class="magic-plants">
+    <img src="leaf1.png" alt="Leaf" class="leaf left">
+    <div class="text-content">
+        <h2>Experience the magic of growing plants</h2>
+        <p>Urban Jungle is here to inspire you to have plants around you. To look at life in a very different way, helping you connect with nature. Each plant you buy is packed and shipped with care, from our 25-acre farm to your doorstep.</p>
+    </div>
+    <img src="leaf1.png" alt="Leaf" class="leaf right">
+</section>
+
+<section class="why-ugaoo">
+    <h2>Why Urban Jungle</h2>
+    <div class="features">
+        <div class="feature-item">
+            <i class="fa-solid fa-recycle"></i>
+            <p>Secure and<br>Recyclable Packaging</p>
+        </div>
+        <div class="feature-item">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+            <p>Free Replacements if<br>Damaged</p>
+        </div>
+        <div class="feature-item">
+            <i class="fa-solid fa-medal"></i>
+            <p>quality is our priority<br>Every plant is nurtured with care</p>
+        </div>
+    </div>
+</section>
+
+    
+</section>
+<footer>
+    <div>
+        <h3>About Us</h3>
+        <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Locate Stores</a></li>
+            <li><a href="#">Garden Services</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>Customer Care</h3>
+        <ul>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>Offers & Rewards</h3>
+        <ul>
+            <li><a href="#">Plant Parent Rewards Club</a></li>
+            <li><a href="#">Coupons</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>Location</h3>
+            
+            <ul>
+                <li><a href="#">Mumbai</a></li>
+                <li><a href="#">Thiruvanandhapuram</a></li>
+                <li><a href="#">Chennai</a></li>
+                <li><a href="#">Kolkalata</a></li>
+                <li><a href="#">Bangalore</a></li>
+            </ul>
+    
+    </div>
+    <div >
+        <h3>Get in touch
+            Call : +91-9129912991
+            
+            Email : support@Urban Jungle.com</h3>
+        <p>Get tips, plant care tips, exclusive offers, and more!</p>
+    </div>
+    <div class="social-icons">
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <div class="app-icons">
+        <h3>Download App!</h3>
+        <img src="download2.webp" alt="">
+    </div>
+</footer>
+
+<div class="footer-bottom">
+    <p>© 2024, Urban Jungle. All rights reserved.</p>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
